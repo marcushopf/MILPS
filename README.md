@@ -1,13 +1,13 @@
 # MILPS
 ## About
-In this repository, we provide data and code to run <b>M</b>ultiple <b>I</b>nstance <b>L</b>earning with <b>P</b>artly <b>S</b>upervision (<b>MILPS</b>), sometimes in the code also referred to as MIL<b>LDI</b> (= MIL with <b>L</b>ocal <b>D</b>ata <b>I</b>njection). The underlying attention mechanism used for MILPS is based on the model MILNET by Stefanos Angelidis and Mirella Lapata (2018) Multiple Instance Learning Networks for Fine-Grained Sentiment Analysis, Transactions of the Association for Computational Linguistics, 6:17–31 (http://dx.doi.org/10.1162/tacl_a_00002).
+In this repository, I provide data and code to run <b>M</b>ultiple <b>I</b>nstance <b>L</b>earning with <b>P</b>artly <b>S</b>upervision (<b>MILPS</b>), sometimes in the code also referred to as MIL<b>LDI</b> (= MIL with <b>L</b>ocal <b>D</b>ata <b>I</b>njection). The underlying attention mechanism used for MILPS is based on the model MILNET by Stefanos Angelidis and Mirella Lapata (2018) Multiple Instance Learning Networks for Fine-Grained Sentiment Analysis, Transactions of the Association for Computational Linguistics, 6:17–31 (http://dx.doi.org/10.1162/tacl_a_00002).
 
 MILPS requires two steps:
 -	data preprocessing for MILPS (cf. “Data_preprocessing.ipynb”)
 -	apply MILPS (cf. “Controller_MILPS.ipynb”)
 
 ## Utilizing MILPS
-For executing the scripts, we used ipynb files on Google Colab together with data on Google drive.
+For executing the scripts, I used ipynb files on Google Colab together with data on Google drive.
 
 Data_preprocessing.ipynb
 -	input: data_input_milldi.json is the raw data in the current working directory (cwd)

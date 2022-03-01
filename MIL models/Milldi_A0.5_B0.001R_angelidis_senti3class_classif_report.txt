@@ -1,0 +1,12 @@
+Milldi_A0.5_B0.001R_angelidis_senti3class
+              precision    recall  f1-score   support
+
+          -1       0.54      0.63      0.58       326
+           0       0.54      0.21      0.31       572
+           1       0.62      0.86      0.72       761
+
+    accuracy                           0.59      1659
+   macro avg       0.57      0.57      0.54      1659
+weighted avg       0.58      0.59      0.55      1659
+
+RMSE senti predictions: 0.7913790941238403
